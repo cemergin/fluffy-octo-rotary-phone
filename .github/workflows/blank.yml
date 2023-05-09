@@ -22,4 +22,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           which -a jq
+          chmod +x .github/workflows/hello.sh
           .github/workflows/hello.sh -l abc -a dag -s asd 
